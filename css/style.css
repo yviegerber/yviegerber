@@ -386,4 +386,65 @@ table tr td {
   background: #DDD;
   color: #47433F;
   border-top: 1px solid #FFF;
+
+}
+
+/* =========================
+   Project list layout (single column)
+   ========================= */
+
+.project-list {
+  margin-top: 20px;
+}
+
+.project-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-thumb img {
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.project-info {
+  flex: 1; /* lets the text column expand */
+}
+
+.project-title {
+  margin: 0 0 6px 0;
+  padding: 0; /* your global h3 has padding-top; this removes extra gap here */
+}
+
+.project-title a {
+  color: #000; /* matches your theme links */
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
+.project-caption {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+/* Mobile: stack image above text */
+@media (max-width: 600px) {
+  .project-item {
+    flex-direction: column;
+  }
+
+  .project-thumb img {
+    width: 100%;
+    height: auto;
+  }
 }
