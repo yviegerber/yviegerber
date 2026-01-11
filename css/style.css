@@ -43,8 +43,9 @@ h2 {
 }
 
 h3 { 
-  font-size: 140%;
+  font-size: 120%;
   padding: 0.5em 0 0 0;
+  font-style: italic;
 }
 
 h4, h5, h6 { 
@@ -448,4 +449,5 @@ table tr td {
     height: auto;
   }
 }
+
 
