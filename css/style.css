@@ -27,13 +27,13 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-  color: #E80003; 
+  color: #2B2B3A; 
   letter-spacing: 0em;
   padding: 0 0 0.5em 0;
 }
 
 h1, h2, h3 { 
-  font: bold 140% 'News Cycle', arial;
+  font: bold 120% 'News Cycle', arial;
   margin: 0 0 1em 0;
   padding: 0 0 0.5em 0;
 }
@@ -448,3 +448,4 @@ table tr td {
     height: auto;
   }
 }
+
