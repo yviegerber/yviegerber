@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project Title</title>
+
+  <!-- Optional: link your main site stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    /* Minimal fallback styling (safe to remove if you already have CSS) */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 30px 0;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Project Heading -->
+    <h1>Project Title</h1>
+
+    <!-- Top Image -->
+    <img src="../images/project-image-1.png" alt="Project image description">
+
+    <!-- Body Text -->
+    <p>
+      This project explores Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      The work focuses on process, reflection, and outcome, emphasizing both conceptual
+      and practical dimensions of the project.
+    </p>
+
+    <p>
+      Additional context can go here. You can add multiple paragraphs and they will
+      naturally stack in a single column.
+    </p>
+
+    <!-- Bottom Image -->
+    <img src="../images/project-image-2.png" alt="Additional project image">
+
+  </div>
+
+</body>
+</html>
