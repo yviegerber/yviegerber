@@ -456,16 +456,14 @@ table tr td {
   width: 35%;
   max-width: 320px;
   margin: 0 25px 20px 0;
-  text-align: center;
 }
 
 .wrap-img {
-  float: none !important;
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  margin: 0 auto !important;
+  float: none;
+  width: 100%;
+  display: block;
 }
+
 
 .image-caption {
   clear: both;
@@ -473,6 +471,7 @@ table tr td {
   margin-top: 8px;
   text-align: center;
 }
+
 
 
 
