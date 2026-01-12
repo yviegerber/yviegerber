@@ -462,6 +462,15 @@ table tr td {
   margin-top: 8px;
 }
 
+.wrap-img {
+  float: none;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
 
 
 
