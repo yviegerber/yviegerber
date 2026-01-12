@@ -450,4 +450,18 @@ table tr td {
   }
 }
 
+.image-wrap {
+  float: left;
+  margin: 0 25px 20px 0;
+  text-align: center;
+}
+
+.image-caption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
+
+
 
