@@ -450,24 +450,30 @@ table tr td {
   }
 }
 
+/* ===== Project page: image + caption block (fixed) ===== */
 .image-wrap {
   float: left;
+  width: 35%;
+  max-width: 320px;
   margin: 0 25px 20px 0;
   text-align: center;
 }
 
-.image-caption {
-  font-size: 0.9em;
-  color: #555;
-  margin-top: 8px;
-}
-
 .wrap-img {
   float: none;
-  width: 75%;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
+
+.image-caption {
+  margin: 8px 0 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+
 
 
 
