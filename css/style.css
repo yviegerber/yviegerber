@@ -460,10 +460,12 @@ table tr td {
 
 
 .wrap-img {
-  float: none;
-  width: 100%;
+  width: 35vw;        
+  max-width: none;
+  height: auto;
   display: block;
 }
+
 
 
 .image-caption {
@@ -472,6 +474,7 @@ table tr td {
   margin-top: 8px;
   text-align: center;
 }
+
 
 
 
