@@ -453,10 +453,11 @@ table tr td {
 /* ===== Project page: image + caption block (fixed) ===== */
 .image-wrap {
   float: left;
-  width: 35%;
-  max-width: 320px;
+  width: auto;         
+  max-width: none;     
   margin: 0 25px 20px 0;
 }
+
 
 .wrap-img {
   float: none;
@@ -471,6 +472,7 @@ table tr td {
   margin-top: 8px;
   text-align: center;
 }
+
 
 
 
