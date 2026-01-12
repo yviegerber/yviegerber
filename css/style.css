@@ -460,18 +460,21 @@ table tr td {
 }
 
 .wrap-img {
-  float: none;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
 }
 
 .image-caption {
-  margin: 8px 0 0;
-  font-size: 0.9em;
-  color: #555;
+  clear: both;
+  display: block;
+  margin-top: 8px;
+  text-align: center;
 }
+
+
 
 
 
