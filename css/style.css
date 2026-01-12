@@ -460,11 +460,10 @@ table tr td {
 
 
 .wrap-img {
-  width: 35vw;        
+  width: 300%;
   max-width: none;
-  height: auto;
-  display: block;
 }
+
 
 
 
@@ -474,6 +473,7 @@ table tr td {
   margin-top: 8px;
   text-align: center;
 }
+
 
 
 
