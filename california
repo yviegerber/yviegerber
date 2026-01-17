@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Psycho-Subjective Image</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* === Two-column layout === */
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .image-column img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 40px;
+    }
+
+    .text-column p {
+      margin-bottom: 22px;
+    }
+
+    /* === Responsive fallback === */
+    @media (max-width: 900px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Psycho-Subjective Image</h1>
+
+    <div class="two-column">
+
+      <!-- LEFT: Images -->
+      <div class="image-column">
+        <img src="images/cali1.mov" alt="Psycho-Subjective Image 1">
+        <img src="images/cali2.mov" alt="Psycho-Subjective Image 2">
+        <img src= "images/cali3.mov" alt="Psycho-Subjective Image 2">
+        <img src="images/cali4.mov" alt="Psycho-Subjective Image 2">
+        <img src="images/cali5.mov" alt="Psycho-Subjective Image 2">
+      </div>
+
+      <!-- RIGHT: Text -->
+      <div class="text-column">
+
+        <p>
+i left my town for the city of angels 
+the night before i flew, i wrote my letters and packed my bags <br>
+it was the most free i’d ever felt <br>
+then i was a girl <br>
+in a land of dreams with the climate of Mars and disposition of Neptune, just like me <br>
+i tend to become my environment <br>
+so i became myself <br>
+i traipsed through the landscape of my mind <br>
+skinny dipping in my subconscious and playing orchestras of illusions 
+    
+    </p>
+
+        <p>
+don’t miss me baby, but do think of me <br>
+you know i’ll still love you
+  </p>
+
+        <p>
+i’d meet my girls at the candy store downtown <br>
+and we’d buy handfuls of caramels and sit on the curb and watch them melt in our palms <br>
+our laughs would float as balloons above us <br>
+while we stared into the syrupy reflections <br>
+reading our fortune and fame 
+</p>
+
+        <p>
+don’t miss me baby, but do think of me <br>
+you know I’ll still love you
+  </p>
+
+        <p>
+i walked through town to the end of the pier <br>
+waiting for my boyfriend to reappear <br>
+summer heat <br>
+ruby tears dripping down rosy cheeks <br>
+splashing in the sea <br>
+i waited to be his puppet <br>
+so very patiently 
+</p>
+
+        <p>
+don’t miss me baby, but do think of me <br>
+you know I’ll still love you
+  </p>
+
+        <p>
+i knew a girl and she too was just like me <br>
+she was an angel like the city that raised her  <br>
+with dark eyes and red lips <br>
+she and i would sit in the velvet night, <br>
+two figures of smoke attached at the seams <br>
+sitting on steps smoking poetic dreams <br>
+sidewalk psychoanalysts, we’d offer our thoughts for free <br>
+observing the many faces of reality  <br>
+we kissed goodbye on a new moon <br>
+then disappeared separately <br>
+i cried as i drove in the hills <br>
+through the velvet night <br>
+as i remembered that God always said,  <br>
+a circle ends only to begin again 
+</p>
+
+        <p>
+don’t miss me baby, but do think of me <br>
+you know I’ll still love you
+  </p>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
