@@ -63,11 +63,11 @@
 
       <!-- LEFT: Images -->
       <div class="image-column">
-        <img src="images/cali1.mov" alt="Psycho-Subjective Image 1">
-        <img src="images/cali2.mov" alt="Psycho-Subjective Image 2">
-        <img src= "images/cali3.mov" alt="Psycho-Subjective Image 2">
-        <img src="images/cali4.mov" alt="Psycho-Subjective Image 2">
-        <img src="images/cali5.mov" alt="Psycho-Subjective Image 2">
+        <img src="movies/cali1.mov" alt="Psycho-Subjective Image 1">
+        <img src="movies/cali2.mov" alt="Psycho-Subjective Image 2">
+        <img src= "movies/cali3.mov" alt="Psycho-Subjective Image 2">
+        <img src="movies/cali4.mov" alt="Psycho-Subjective Image 2">
+        <img src="movies/cali5.mov" alt="Psycho-Subjective Image 2">
       </div>
 
       <!-- RIGHT: Text -->
