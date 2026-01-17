@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Untitled</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* === Two-column layout === */
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .image-column img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 40px;
+    }
+
+    .text-column p {
+      margin-bottom: 22px;
+    }
+
+    /* === Responsive fallback === */
+    @media (max-width: 900px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1></h1>
+
+    <div class="two-column">
+
+      <!-- LEFT: Images -->
+      <div class="image-column">
+        <img src="movies/untitled1.mov" alt="Psycho-Subjective Image 1">
+        <img src="movies/untitled2.mov" alt="Psycho-Subjective Image 2">
+      </div>
+
+      <!-- RIGHT: Text -->
+      <div class="text-column">
+
+        <p>
+I wished to be a saint but instead became a martyr <br>
+for what though, I do not know. 
+    
+    </p>
+
+        <p>
+Still, they pay me tribute, <br>
+and my allowance pays for the train to the stop at the bottom of the hill. <br>
+I lay near the top with my knees bent <br>
+the cat always comes and there we lie <br>
+my hands above my head, my chest open. <br>
+  </p>
+
+        <p>
+I wear braids to protect myself, but I don’t think it works. They catch my feet as I’m dancing and I fall on the ballroom floor
+down falls the iron curtain and there I lay,<br>
+blushed cheek on the cool marble, clouded eyes towards the crowd <br>
+And they clap <br>
+a fallen angel,my molten wings drip molasses, <br>
+syrupy liqueur down my spine. <br>
+They say that you are the dichotomy of your heaven and hell <br>
+and I can confirm this is true, as I lie <br>
+in the ballroom of my mind.
+
+</p>
+
+  
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
