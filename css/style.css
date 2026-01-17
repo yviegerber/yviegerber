@@ -32,11 +32,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 0.5em 0;
 }
 
-h1, h2, h3 { 
-  font: bold 120% 'News Cycle', arial;
+h1, h2, h3 {
+  font-family: "Edwardian Script ITC", cursive;
+  font-weight: bold;
+  font-size: 120%;
+  line-height: 1.2;
   margin: 0 0 1em 0;
   padding: 0 0 0.5em 0;
 }
+
+
 
 h2 { 
   font-size: 160%;
@@ -473,6 +478,7 @@ table tr td {
   margin-top: 8px;
   text-align: center;
 }
+
 
 
 
