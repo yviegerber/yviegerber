@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>halloween in july</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* === Two-column layout === */
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .image-column img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 40px;
+    }
+
+    .text-column p {
+      margin-bottom: 22px;
+    }
+
+    /* === Responsive fallback === */
+    @media (max-width: 900px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>a halloween party in mid-july</h1>
+
+    <div class="two-column">
+
+      <!-- LEFT: Images -->
+      <div class="image-column">
+        
+        <img src="movies/halloween.mov" alt="Psycho-Subjective Image 2">
+      </div>
+
+      <!-- RIGHT: Text -->
+      <div class="text-column">
+
+        <p>
+You pulled the hood from my head as I stepped off the L, murmuring something about the static in my hair. Fission braids and a fragmenting mind, I was your tonic of splitting neutrons. 
+    
+    </p>
+
+        <p>
+Six pairs step down the fluorescent stairs of the station. Three went right, one went left. Two went straight: past the bar and the band, through the crowd, and into Violet Hour. 
+  </p>
+
+        <p>
+Standing in the corner, you held me through your eyes as I bought fake blood from the thrift store. Outside, striped ribbons of pink and green lined the street for the holiday.     
+We continued walking North by beaded curtains out open windows past girls in babydoll negligés wearing whimsical stilettos. 
+
+</p>
+
+    <p>
+Silver hair in your slivered eyes that stared into mine, <br>
+down the aisle of light off the billboard and a veil of cigarette smoke, <br>
+you were my corpse bride. 
+  </p>
+
+      <p>
+We climbed the seven flights of stairs to the 1-bedroom 1-bath. The mattress on the linoleum, we laid in the liminal then redressed in costume. 
+The rain came as we were leaving for the party and we didn’t mind. We chased each other the whole way to their apartment,<br>
+down the spiraled flights in my heels with my hair done up,<br>
+you caught me in the street and held me by the ribbons on my wrist <br>
+they blew away in the wind and then I was after you…
+</p>
+
+
+     <p>
+Tonight I’m sitting alone on the sleeping porch of my grandparents home, watching the heavens open above the fields below. I’ve always liked the idea of death by lightening. To die from the same bolt that could theoretically revive you was a Frankensteinian reminder of complexity, nothing can ever be wholly bad or defined or even understood. A comforting death sentence. 
+  </p>
+
+ <p>
+I think now about walking into the field in my rain boots, <br>
+and of running tall through the grasses <br>
+and how I’d hope to be struck, <br>
+so that I might again live alive and not a ghost. 
+   </p>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
